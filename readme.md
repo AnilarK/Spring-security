@@ -1,195 +1,117 @@
+<h1 align="center">Spring Boot Security Demo</h1>
+<h3 align="center">A practical demonstration of implementing Spring Security in a Spring Boot application with user registration, password hashing, and secured REST APIs.</h3>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[Project Title] - README</title>
-    <style>
-        /* --- General Body & Font Styling --- */
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-            line-height: 1.6;
-            background-color: #f6f8fa;
-            color: #24292e;
-            margin: 0;
-            padding: 30px;
-        }
+---
 
-        /* --- Main Container --- */
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background-color: #ffffff;
-            border: 1px solid #d1d5da;
-            border-radius: 6px;
-            padding: 25px 40px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-        }
+- 🔭 This project showcases **secure backend development** using Spring Boot.
+- 💬 Ask me about **Java, Spring Boot, Spring Security, REST APIs, and JPA**.
+- 🌱 I’m currently expanding my knowledge in **microservices and cloud-native technologies**.
+- 📫 How to reach me: **abhayanilark@gmail.com**
+- 🧠 Fun fact: I enjoy building robust and scalable backend systems!
 
-        /* --- Headings --- */
-        h1, h2, h3 {
-            border-bottom: 1px solid #eaecef;
-            padding-bottom: 0.3em;
-            font-weight: 600;
-        }
+---
 
-        h1 {
-            font-size: 2em;
-        }
+### 🔗 Connect with me
 
-        h2 {
-            font-size: 1.5em;
-            margin-top: 2em;
-        }
-        
-        h3 {
-            font-size: 1.25em;
-            margin-top: 1.5em;
-        }
+<p align="center">
+  <a href="https://www.linkedin.com/in/abhay-singh-b825a1221/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://github.com/AnilarK" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://codeforces.com/profile/AbhayAnilark" target="_blank">
+    <img src="https://img.shields.io/badge/Codeforces-%23EE8208.svg?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces"/>
+  </a>
+  <a href="https://leetcode.com/AbhayAnilark/" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-%23FFA116.svg?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/>
+  </a>
+  <a href="https://www.codechef.com/users/anilark" target="_blank">
+    <img src="https://img.shields.io/badge/Codechef-%235A4F46.svg?style=for-the-badge&logo=codechef&logoColor=white" alt="Codechef"/>
+  </a>
+</p>
 
-        /* --- Links --- */
-        a {
-            color: #0366d6;
-            text-decoration: none;
-        }
+---
 
-        a:hover {
-            text-decoration: underline;
-        }
+### 📊 My GitHub Stats
 
-        /* --- Code Blocks --- */
-        pre {
-            background-color: #f6f8fa;
-            padding: 16px;
-            overflow: auto;
-            border-radius: 6px;
-            border: 1px solid #d1d5da;
-        }
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=AnilarK&show_icons=true&theme=react&rank_icon=percentile" height="200"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AnilarK&layout=compact&theme=react" height="200"/>
+</div>
 
-        code {
-            font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
-            font-size: 0.875em;
-        }
-        
-        /* For inline code */
-        p > code, li > code {
-            background-color: rgba(27,31,35,0.05);
-            padding: .2em .4em;
-            margin: 0;
-            font-size: 85%;
-            border-radius: 3px;
-        }
+---
 
-        /* --- Lists --- */
-        ul, ol {
-            padding-left: 2em;
-        }
+### 💼 Project Details
 
-        li {
-            margin-bottom: 0.5em;
-        }
+<table>
+  <tr>
+    <td><b>🔐 Spring Boot Security Demo</b></td>
+    <td>
+      A comprehensive example of a secure Spring Boot application.
+      <br/>
+      🔹 <b>Features:</b>
+      <ul>
+        <li>User registration with BCrypt password encoding.</li>
+        <li>Stateless session management, ideal for REST APIs.</li>
+        <li>Custom <code>UserDetailsService</code> for database authentication.</li>
+        <li>Secured endpoints requiring authentication.</li>
+        <li>CSRF token generation endpoint.</li>
+      </ul>
+      🔗 <a href="https://github.com/AnilarK/spring-security" target="_blank">GitHub Repository</a>
+    </td>
+  </tr>
+</table>
 
-        /* --- Header & Footer --- */
-        header, footer {
-            text-align: center;
-            margin-bottom: 2em;
-        }
-        
-        footer {
-            margin-top: 2em;
-            font-size: 0.9em;
-            color: #586069;
-        }
-    </style>
-</head>
-<body>
+---
 
-    <div class="container">
-        <header>
-            <h1>[Project Title]</h1>
-            <p>A brief one-sentence description of your project. What problem does it solve?</p>
-            <p><a href="[Link-to-Live-Demo]"><strong>View Live Demo »</strong></a></p>
-        </header>
+### 🛠️ Technologies Used
 
-        <section id="about">
-            <h2>About The Project</h2>
-            <p>Provide a more detailed description of your project here. Explain the motivation behind it, the problem it addresses, and why you created it. You can also mention what makes your project stand out.</p>
-            <img src="[Link-to-your-screenshot.png]" alt="Project Screenshot" style="width: 100%; border-radius: 6px; margin-top: 1em;">
-        </section>
+- **Languages & Frameworks:** Java 21, Spring Boot 3.4.3, Spring Security, Spring Data JPA
+- **Database:** PostgreSQL
+- **Authentication:** BCrypt Password Hashing, JWT (jjwt-api, jjwt-impl, jjwt-jackson)
+- **Build Tool:** Maven
+- **API:** RESTful Web Services
 
-        <section id="features">
-            <h2>Key Features</h2>
-            <ul>
-                <li><strong>Feature 1:</strong> Description of the first main feature.</li>
-                <li><strong>Feature 2:</strong> Description of the second main feature.</li>
-                <li><strong>Feature 3:</strong> Description of the third main feature.</li>
-            </ul>
-        </section>
+---
 
-        <section id="built-with">
-            <h2>Built With</h2>
-            <p>This section lists all the major frameworks, libraries, and technologies you used.</p>
-            <ul>
-                <li><a href="https://reactjs.org/">React.js</a></li>
-                <li><a href="https://nodejs.org/">Node.js</a></li>
-                <li><a href="https://www.python.org/">Python</a></li>
-            </ul>
-        </section>
+### 🚀 Getting Started
 
-        <section id="getting-started">
-            <h2>Getting Started</h2>
-            <p>Follow these instructions to get a copy of the project up and running on your local machine.</p>
-            
-            <h3>Prerequisites</h3>
-            <p>List any software that needs to be installed before a user can run your project.</p>
-            <pre><code>npm install npm@latest -g</code></pre>
-            
-            <h3>Installation</h3>
-            <ol>
-                <li>Clone the repository</li>
-                <pre><code>git clone https://github.com/[Your-Username]/[Your-Repo-Name].git</code></pre>
-                <li>Navigate to the project directory</li>
-                <pre><code>cd [Your-Repo-Name]</code></pre>
-                <li>Install dependencies</li>
-                <pre><code>npm install</code></pre>
-                <li>Set up environment variables (create a <code>.env</code> file)</li>
-                <pre><code>API_KEY='YOUR_API_KEY'</code></pre>
-            </ol>
-        </section>
+To get a local copy up and running, follow these simple steps.
 
-        <section id="usage">
-            <h2>Usage</h2>
-            <p>Provide code examples and instructions on how to use your project. Screenshots or GIFs are very helpful here.</p>
-            <pre><code># Start the development server
-npm start</code></pre>
-            <p>For more examples, please refer to the <a href="[Link-to-Documentation]">Documentation</a>.</p>
-        </section>
+#### Prerequisites
 
-        <section id="contributing">
-            <h2>Contributing</h2>
-            <p>Contributions are what make the open-source community such an amazing place. Any contributions you make are <strong>greatly appreciated</strong>. Please read our <a href="[Link-to-Contributing-Guide]">contributing guide</a> for details on our code of conduct and the process for submitting pull requests.</p>
-        </section>
+- Java JDK 21 or later
+- Maven
+- A running instance of PostgreSQL
 
-        <section id="license">
-            <h2>License</h2>
-            <p>Distributed under the MIT License. See <code>LICENSE.txt</code> for more information.</p>
-        </section>
+#### Installation
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>
-                [Your Name] - <a href="mailto:your.email@example.com">your.email@example.com</a>
-            </p>
-            <p>
-                Project Link: <a href="https://github.com/[Your-Username]/[Your-Repo-Name]">https://github.com/[Your-Username]/[Your-Repo-Name]</a>
-            </p>
-        </section>
+1.  **Clone the repository:**
+    ```sh
+    git clone [https://github.com/AnilarK/spring-security.git](https://github.com/AnilarK/spring-security.git)
+    ```
+2.  **Configure your database:**
+    Update `src/main/resources/application.properties` with your PostgreSQL credentials.
+    ```properties
+    spring.datasource.url=jdbc:postgresql://localhost:5432/SpringSecurity
+    spring.datasource.username=your_username
+    spring.datasource.password=your_password
+    ```
+3.  **Run the application:**
+    ```sh
+    ./mvnw spring-boot:run
+    ```
+    The application will be accessible at `http://localhost:8085`.
 
-        <footer>
-            <p>&copy; 2025 [Your Name or Company]. All Rights Reserved.</p>
-        </footer>
-    </div>
+---
 
-</body>
-</html>
+### 📡 API Endpoints
+
+| Method | Endpoint        | Description                                  | Security      |
+| :----- | :-------------- | :------------------------------------------- | :------------ |
+| `POST` | `/register`     | Register a new user.                      | Public        |
+| `GET`  | `/students`     | Get a list of all students.                | Authenticated |
+| `POST` | `/students`     | Add a new student to the list.             | Authenticated |
+| `GET`  | `/csrf-token`   | Get a Cross-Site Request Forgery (CSRF) token. | Authenticated |
+| `GET`  | `/`             | A simple greeting endpoint.                   | Authenticated |
