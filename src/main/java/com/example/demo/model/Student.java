@@ -1,10 +1,10 @@
-package com.example.demo;
+package com.example.demo.model;
 
 import lombok.Data;
-
-import java.math.BigDecimal;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
+@Document(collection = "Students")
 public class Student {
 
     private int id;
